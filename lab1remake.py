@@ -5,7 +5,7 @@ nameone,nametwo,namethree = input('Введите имя первого сотр
 
 N1,N2,N3 = int(input('Введите оклад первого сотрудника')),int(input('Введите оклад второго сотрудника')),int(input('Введите оклад третьего сотрудника'))
 
-KvartP
+KvartPrem = 3000
 rem = N * 2/3
 
 podnalog = N - 0.13 * N
