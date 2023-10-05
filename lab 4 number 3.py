@@ -2,9 +2,7 @@ import random
 N = random.randint(4, 30)
 def pickupstone(n):
     global N
-
     N = N - n
-
     return N <= 0
 print(N)
 while N > 0:
